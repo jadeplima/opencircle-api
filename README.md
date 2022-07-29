@@ -21,34 +21,45 @@
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+  
+  > Status do Projeto: :warning:  (em desenvolvimento)
 
 ## Description
+Back-end JR Challenge,
+API para gestão de frete de uma transportadora,
+No projeto utilizei o framework NestJs. E nodejs + TypeScript.
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
 
+Instalando o nestJs:
 ```bash
-$ npm install
+$ npm i -g @nestjs/cli
+```
+Instalando Swagger 
+```bash
+$ npm install --save @nestjs/swagger
 ```
 
 ## Running the app
 
 ```bash
-# development
+# Rodando o servidor
 $ npm run start
 
-# watch mode
+
+# Rodando o servidor, e em tempo real você pode verificar se ha algum erro
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
+# url do projeto
+$ http://localhost:3000/api#/
 ```
 
 ## Test
 
 ```bash
-# unit tests
+# Teste Unitarios
 $ npm run test
 
 # e2e tests
@@ -58,9 +69,9 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+Desenvolvedor(a)
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+@jadePaulo
 
 ## Stay in touch
 
